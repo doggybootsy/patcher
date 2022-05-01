@@ -1,16 +1,22 @@
 {
-  "name": "patcher",
+  "name": "function_patcher",
   "version": "1.0.0",
   "description": "A simple way to patch Functions",
-  "main": "dist/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
   },
   "keywords": [
     "patch",
     "patcher",
+    "patching",
     "monkey-patch",
-    "monkey-patcher"
+    "monkey-patcher",
+    "monkey-patching",
+    "function-patch",
+    "function-patching",
+    "function-patcher"
   ],
   "author": "doggybootsy",
   "license": "MIT",
